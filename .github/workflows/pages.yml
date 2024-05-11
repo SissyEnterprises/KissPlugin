@@ -34,7 +34,7 @@ jobs:
       - name: Export html from Godot
         uses: robpc/godot-export-action@v4.2
         with:
-          preset: web
+          preset: Web
           export_path: build/web/index.html
 
       - name: Debug output
