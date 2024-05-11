@@ -29,7 +29,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Create build folder
-        run: mkdir -p build/web
+        run: mkdir -p build/web/ && cp coi-serviceworker.min.js build/web/
 
       - name: Export html from Godot
         uses: robpc/godot-export-action@v4.2
