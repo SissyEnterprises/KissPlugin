@@ -32,7 +32,7 @@ jobs:
         run: mkdir -p build/web/ && cp coi-serviceworker.min.js build/web/
 
       - name: Export html from Godot
-        uses: robpc/godot-export-action@v4.2
+        uses: robpc/godot-export-action@v4.3
         with:
           preset: Web
           export_path: build/web/index.html
